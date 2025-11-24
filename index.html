@@ -1,251 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Harbor - Pirate Site Collection</title>
-		<link rel="stylesheet" href="src/index.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-	</head>
-	<body>
-		<div class="container">
-			<header>
-				<h1>Harbor</h1>
-				<p class="subtitle">A curated list of my favorite pirate sites</p>
-				<div class="search-box">
-					<input
-						type="text"
-						id="search-input"
-						placeholder="Search for items..."
-					/>
-					<i class="fa-solid fa-magnifying-glass search-icon"></i>
-				</div>
-			</header>
-			<main>
-				<div class="category">
-					<button class="collapsible">
-						<h2>Movies / Shows</h2>
-						<i class="fa-solid fa-chevron-down"></i>
-					</button>
-					<div class="content">
-						<p class="category-desc">
-							Stream your favorite movies and TV shows in HD quality
-						</p>
-						<div class="card-list">
-							<div class="card">
-								<a
-									href="https://fmovies-hd.to/home/"
-									target="_blank"
-									class="card-title card-link"
-									>FMovies HD</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://bflix.sh/home/"
-									target="_blank"
-									class="card-title card-link"
-									>BFlix</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://www.wooflixtv.co/"
-									target="_blank"
-									class="card-title card-link"
-									>WooflixTV</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://netplayz.live/"
-									target="_blank"
-									class="card-title card-link"
-									>NetPlayz</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://vidbox.cc/home"
-									target="_blank"
-									class="card-title card-link"
-									>VidBox</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://watch.bludclart.com/"
-									target="_blank"
-									class="card-title card-link"
-									>Bludclart</a
-								>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="category">
-					<button class="collapsible">
-						<h2>PC Games</h2>
-						<i class="fa-solid fa-chevron-down"></i>
-					</button>
-					<div class="content">
-						<p class="category-desc">
-							Download premium PC games without the premium price tag
-						</p>
-						<div class="card-list">
-							<div class="card">
-								<a
-									href="https://steamunderground.net/"
-									target="_blank"
-									class="card-title card-link"
-									>SteamUnderground</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://gog-games.to/"
-									target="_blank"
-									class="card-title card-link"
-									>GOG Games</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://ankergames.net/"
-									target="_blank"
-									class="card-title card-link"
-									>AnkerGames</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://steamrip.com/"
-									target="_blank"
-									class="card-title card-link"
-									>SteamRip</a
-								>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="category">
-					<button class="collapsible">
-						<h2>Mobile Modded Apps/Games</h2>
-						<i class="fa-solid fa-chevron-down"></i>
-					</button>
-					<div class="content">
-						<p class="category-desc">Download modded Android and iOS games</p>
-						<div class="card-list">
-							<div class="card">
-								<a
-									href="https://liteapks.com/"
-									target="_blank"
-									class="card-title card-link"
-									>LiteAPKs</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://9mod.com/"
-									target="_blank"
-									class="card-title card-link"
-									>9Mod</a
-								>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="category">
-					<button class="collapsible">
-						<h2>Indian Cartoons</h2>
-						<i class="fa-solid fa-chevron-down"></i>
-					</button>
-					<div class="content">
-						<p class="category-desc">
-							Download classic and new Indian cartoon shows
-						</p>
-						<div class="card-list">
-							<div class="card">
-								<a
-									href="https://raretoonindia.in/"
-									target="_blank"
-									class="card-title card-link"
-									>RareToonIndia</a
-								>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="category">
-					<button class="collapsible">
-						<h2>Animes</h2>
-						<i class="fa-solid fa-chevron-down"></i>
-					</button>
-					<div class="content">
-						<p class="category-desc">
-							Watch subbed and dubbed anime series, movies & mobile app
-						</p>
-						<div class="card-list">
-							<div class="card">
-								<a
-									href="https://hianime.to/"
-									target="_blank"
-									class="card-title card-link"
-									>HiAnime</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://kaa.to/"
-									target="_blank"
-									class="card-title card-link"
-									>Kaato</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://www.miruro.online/"
-									target="_blank"
-									class="card-title card-link"
-									>Miruro</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://animekai.to/home"
-									target="_blank"
-									class="card-title card-link"
-									>AnimeKai</a
-								>
-							</div>
-							<div class="card">
-								<a
-									href="https://anilab.to/"
-									target="_blank"
-									class="card-title card-link"
-									>AniLab (APK)</a
-								>
-							</div>
-						</div>
-					</div>
-				</div>
-			</main>
-			<footer>
-				<p>
-					Made with ❤️ By
-					<a href="https://github.com/suchdivinity" target="_blank"
-						>SnowFlake</a
-					>
-				</p>
-			</footer>
-		</div>
-		<script src="src/collapsible.js"></script>
-		<script src="src/index.js"></script>
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harbor - Pirate Site Collection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Harbor</h1>
+      <p class="subtitle">A curated list of my favorite pirate sites</p>
+    </header>
+    <main>
+      <section class="category" id="movies-shows">
+        <h2>Movies / Shows</h2>
+        <p class="category-desc">Stream your favorite movies and TV shows in HD quality</p>
+        <div class="card-list">
+          <div class="card">
+            <a href="https://fmovies-hd.to/home/" target="_blank" class="card-title card-link">FMovies HD</a>
+          </div>
+          <div class="card">
+            <a href="https://bflix.sh/home/" target="_blank" class="card-title card-link">BFlix</a>
+          </div>
+          <div class="card">
+            <a href="https://www.wooflixtv.co/" target="_blank" class="card-title card-link">WooflixTV</a>
+          </div>
+          <div class="card">
+            <a href="https://netplayz.live/" target="_blank" class="card-title card-link">NetPlayz</a>
+          </div>
+          <div class="card">
+            <a href="https://vidbox.cc/home" target="_blank" class="card-title card-link">VidBox</a>
+          </div>
+          <div class="card">
+            <a href="https://watch.bludclart.com/" target="_blank" class="card-title card-link">Bludclart</a>
+          </div>
+        </div>
+      </section>
+      <section class="category" id="pc-games">
+        <h2>PC Games</h2>
+        <p class="category-desc">Download premium PC games without the premium price tag</p>
+        <div class="card-list">
+          <div class="card">
+            <a href="https://steamunderground.net/" target="_blank" class="card-title card-link">SteamUnderground</a>
+          </div>
+          <div class="card">
+            <a href="https://gog-games.to/" target="_blank" class="card-title card-link">GOG Games</a>
+          </div>
+          <div class="card">
+            <a href="https://ankergames.net/" target="_blank" class="card-title card-link">AnkerGames</a>
+          </div>
+          <div class="card">
+            <a href="https://steamrip.com/" target="_blank" class="card-title card-link">SteamRip</a>
+          </div>
+        </div>
+      </section>
+      <section class="category" id="mobile-games">
+        <h2>Mobile Modded Apps/Games</h2>
+        <p class="category-desc">Download modded Android and iOS games</p>
+        <div class="card-list">
+          <div class="card">
+            <a href="https://liteapks.com/" target="_blank" class="card-title card-link">LiteAPKs</a>
+          </div>
+          <div class="card">
+            <a href="https://9mod.com/" target="_blank" class="card-title card-link">9Mod</a>
+          </div>
+        </div>
+      </section>
+      <section class="category" id="indian-cartoons">
+        <h2>Indian Cartoons</h2>
+        <p class="category-desc">Download classic and new Indian cartoon shows</p>
+        <div class="card-list">
+          <div class="card">
+            <a href="https://raretoonindia.in/" target="_blank" class="card-title card-link">RareToonIndia</a>
+          </div>
+        </div>
+      </section>
+      <section class="category" id="anime">
+        <h2>Animes</h2>
+        <p class="category-desc">Watch subbed and dubbed anime series, movies & mobile app</p>
+        <div class="card-list">
+          <div class="card">
+            <a href="https://hianime.to/" target="_blank" class="card-title card-link">HiAnime</a>
+          </div>
+          <div class="card">
+            <a href="https://kaa.to/" target="_blank" class="card-title card-link">Kaato</a>
+          </div>
+          <div class="card">
+            <a href="https://www.miruro.online/" target="_blank" class="card-title card-link">Miruro</a>
+          </div>
+          <div class="card">
+            <a href="https://animekai.to/home" target="_blank" class="card-title card-link">AnimeKai</a>
+          </div>
+          <div class="card">
+            <a href="https://anilab.to/" target="_blank" class="card-title card-link">AniLab (APK)</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Made with ❤️ By <a href="https://github.com/suchdivinity" target="_blank">SnowFlake</a></p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
